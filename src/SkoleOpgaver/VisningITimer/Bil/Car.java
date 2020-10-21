@@ -92,6 +92,7 @@ public class Car {
             gear gear4 = gear.FOUR;
             gear gear5 = gear.FIVE;
             gear gearR = gear.REVERSE;
+            // still writing on this one....
         }
     }
     }
