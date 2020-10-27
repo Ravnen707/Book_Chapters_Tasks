@@ -11,10 +11,6 @@ public class ConstantArray {
         this.Colors = color;
     }
 
-    public ConstantArray() {
-
-    }
-
     public static void main(String[] args) {
         int colorz = 3;
         System.out.println(y[colorz]);
@@ -22,6 +18,7 @@ public class ConstantArray {
         ConstantArray color;
         color = new ConstantArray(SkoleOpgaver.Arrays.Colors.Blue);
         System.out.println(color.Colors);
+
 
     }
 }
