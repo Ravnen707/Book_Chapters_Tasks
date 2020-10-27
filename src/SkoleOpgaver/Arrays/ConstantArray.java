@@ -19,6 +19,5 @@ public class ConstantArray {
         color = new ConstantArray(SkoleOpgaver.Arrays.Colors.Blue);
         System.out.println(color.Colors);
 
-
     }
 }
