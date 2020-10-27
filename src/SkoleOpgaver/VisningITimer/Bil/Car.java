@@ -1,7 +1,5 @@
 package SkoleOpgaver.VisningITimer.Bil;
 
-import javax.swing.event.TreeExpansionEvent;
-
 public class Car {
     public static int turncaron;
     public static boolean trafficlight;
