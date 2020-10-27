@@ -8,9 +8,11 @@ public class CarInterFace {
         car.setHandbrake(false);
         car.carLight(false);
         car.setCurrentspeed((int)car.setspeed(12,4.8));
+        car.trafficlight();
         car.setHandbrake(true);
         car.carLight(true);
         car.turncaroff(key);
+
     }
 
 

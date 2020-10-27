@@ -67,31 +67,44 @@ public class Car {
             System.out.println("handbrake is not pulled");
         }
     }
+
     public void trafficlight() {
         TraficLight light = TraficLight.RED;
         System.out.println(light.getDescription());
 
     }
-    enum gear {
-      NEUTRAL(0),
-      ONE(1),
-      TWO(2),
-      Three(3),
-      FOUR(4),
-      FIVE(5),
-      REVERSE(-1);
+}
 
-        gear(int i) {
-        }
+//      enum gear {
+//      NEUTRAL(0),
+//      ONE(1),
+//      TWO(2),
+//      Three(3),
+//      FOUR(4),
+//      FIVE(5),
+//      REVERSE(-1);
 
-        public static void main(String[] args) {
-            gear gearN = gear.NEUTRAL;
-            gear gear1 = gear.ONE;
-            gear gear2 = gear.TWO;
-            gear gear3 = gear.Three;
-            gear gear4 = gear.FOUR;
-            gear gear5 = gear.FIVE;
-            gear gearR = gear.REVERSE;
-        }
-    }
-    }
+//        gear(int i) {
+//        }
+
+//        public static void main(String[] args) {
+//            gear gearN = gear.NEUTRAL;
+//            gear gear1 = gear.ONE;
+//            gear gear2 = gear.TWO;
+//            gear gear3 = gear.Three;
+//            gear gear4 = gear.FOUR;
+//            gear gear5 = gear.FIVE;
+//            gear gearR = gear.REVERSE;
+
+//            System.out.println("gear is in Neutral" + gearN);
+//            System.out.println("move to gear 1 to start driving" + gear1);
+//            System.out.println("move to gear 2 to go faster" + gear2);
+//            System.out.println("move to gear 3 to go faster" + gear3);
+//            System.out.println("move to gear 4 to go faster" + gear4);
+//            System.out.println("move to gear 5 to go faster" + gear5);
+//            System.out.println("Move to Reverse to go backwards" + gearR);//
+//            }
+//
+//
+//        }
+
