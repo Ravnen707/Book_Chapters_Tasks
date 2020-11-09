@@ -12,11 +12,11 @@ public class ConstantArray {
     }
 
     public static void main(String[] args) {
-        int colorz = 3;
+        int colorz = 0;
         System.out.println(y[colorz]);
 
         ConstantArray color;
-        color = new ConstantArray(SkoleOpgaver.Arrays.Colors.Blue);
+        color = new ConstantArray(SkoleOpgaver.Arrays.Colors.Purple);
         System.out.println(color.Colors);
 
     }
